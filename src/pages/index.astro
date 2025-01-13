@@ -1,11 +1,21 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Welcome from "../components/Welcome.astro";
+import Layout from "../layouts/Layout.astro";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+  <h1>Giogurt</h1>
+  <p>Encuentrame aquí</p>
+  <ul>
+    <li>
+      <a href="https://github.com/Giogurt" rel="me">@Giogurt on Github</a>
+    </li>
+    <li><a href="https://twitter.com/BigGiogurt" rel="me">Twitter</a></li>
+    <li><a href="https://bsky.app/profile/giogurt.me" rel="me">Bluesky</a></li>
+    <!-- <li><a href="mailto:me@example.com" rel="me">me@example.com</a></li> -->
+    <!-- <li><a href="sms:+15035551212" rel="me">(503) 555-1212</a></li> -->
+  </ul>
 </Layout>
